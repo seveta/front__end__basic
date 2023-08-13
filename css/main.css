@@ -2,3 +2,7 @@ body {
     font-family: Arial, sans-serif;
     letter-spacing: 2px;
 }
+li{
+    list-style-type: disc;
+    padding: 10px 10px;
+}
