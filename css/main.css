@@ -6,3 +6,11 @@ li{
     list-style-type: disc;
     padding: 10px 10px;
 }
+a{
+    text-decoration: none;
+    color: #444eb8;
+    font-weight: 700;
+}
+h1, h3{
+    text-transform: uppercase;
+}
