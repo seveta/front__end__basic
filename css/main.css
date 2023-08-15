@@ -1,0 +1,17 @@
+/*1) Універсальний селектор*/
+* {
+    color: rgb(51, 158, 158);
+}
+/*2) Селектори за назвою тега*/
+h3{
+    color: #aa1c1c;
+}
+.phrase__color{
+    color: #848b1d;
+}
+#phrase__one{
+    color: #1d248b;
+}
+a[href^="https://google.com"] {
+	color: #eb3333
+}
