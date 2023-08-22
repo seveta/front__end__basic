@@ -16,7 +16,44 @@ html{
     font-weight: 400;
     color: #353535;
 }
+body{
+    background-color: #C4C4C4;
+}
 img{
     max-width: 100%;
     display: block;
+}
+.wrapper{
+    background-color: #E6E6E6;
+    display: flex;
+    margin: 50px;
+    justify-content: space-between; /* Выравнивание содержимого по центру */
+}
+.card{
+    width: 200px;
+    height: 200px;
+    background-color: #fc8f8f;
+    color: #ffffff;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 200px;
+}
+.card.small{
+    width: 100px;
+    height: 100px;
+    font-size: 36px;
+    line-height: 100px;
+}
+.float__left{
+    float: left;
+}
+.float__right{
+    float: right;
+}
+.ml{
+    margin-left: 5rem;
+}
+.mr{
+    margin-right: 5rem;
 }
