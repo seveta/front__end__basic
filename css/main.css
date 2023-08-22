@@ -10,12 +10,15 @@
     padding: 0 1rem;
     position: relative;
 }
+h2{
+    text-align: center;
+}
 html{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     font-weight: 400;
-    color: #353535;
+    color: #474747;
 }
 body{
     background-color: #C4C4C4;
@@ -58,4 +61,7 @@ img{
 }
 .clearfix{
     clear: both;
+}
+.row{
+    display: flex;
 }
