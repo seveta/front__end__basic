@@ -11,6 +11,7 @@
     position: relative;
 }
 html{
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     font-weight: 400;
@@ -25,9 +26,7 @@ img{
 }
 .wrapper{
     background-color: #E6E6E6;
-    display: flex;
     margin: 50px;
-    justify-content: space-between; /* Выравнивание содержимого по центру */
 }
 .card{
     width: 200px;
@@ -52,8 +51,11 @@ img{
     float: right;
 }
 .ml{
-    margin-left: 5rem;
+    margin-left: 1rem;
 }
 .mr{
-    margin-right: 5rem;
+    margin-right: 1rem;
+}
+.clearfix{
+    clear: both;
 }
