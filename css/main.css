@@ -11,13 +11,42 @@
     position: relative;
 }
 html{
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
+    font-family: "Pacifico";
+    font-size: 18px;
+    line-height: 1.7;
     font-weight: 400;
-    color: #353535;
+    color: #909090;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 img{
     max-width: 100%;
     display: block;
+    border-radius: 0.5rem;
+}
+h1,h2,h4{
+    color:  #303030;
+    font-weight: 700;
+}
+hr{
+    margin: 1rem;
+}
+.card{
+    width: 300px;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 30px rgba(50, 50, 100, 0.25);
+    margin-top: 1rem;
+}
+.link{
+    float: right;
+    text-decoration: none;
+    transition: color 0.2s linear;
+}
+.link:hover{
+    color: #647bf8;
+}
+.fixclear{
+    clear: both;
 }
