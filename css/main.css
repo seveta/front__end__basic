@@ -34,8 +34,7 @@ a {
     text-decoration: none;
 }
 .body{
-    background: url('/images/background.png') no-repeat;
-    background-size: cover;
+    background: url('../images/background.png') no-repeat center/cover;
     height: 100vh;
 }
 .main{
