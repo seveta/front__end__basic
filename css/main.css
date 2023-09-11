@@ -1,5 +1,5 @@
 :root{
-    --basic-color: #EEEFF1;
+    --basic-color: #fff;
 }
 *{
     margin: 0;
@@ -18,12 +18,68 @@ html{
     font-size: 16px;
     line-height: 1.5;
     font-weight: 400;
-    color: #353535;
+    color: #fff;
+    text-transform: uppercase;
 }
 img{
     max-width: 100%;
     display: block;
 }
+
+/*--------------------------------------*/
+
+nav{
+    display: inline-flex;
+    background-color: #333;
+    border-bottom: 4px solid #31a8a8;
+    text-align: center;
+}
+li {
+    display: inline-block;
+    position: relative;
+    width: 150px;
+}
 a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
     text-decoration: none;
+}
+
+/*--------------------------------------*/
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #31a8a8;
+    border: 1px solid #1b7777; 
+    text-align: left;
+}
+li:hover > ul {
+    display: block;
+}
+li:hover{
+    background-color: #31a8a8;
+    position: relative;
+}
+li:hover > a::after{
+    content: "+";
+    color: #fff;
+    font-size: 12px;
+    float: right;
+}
+ul ul li:hover{
+    background-color: #228f8f;
+}
+
+/*--------------------------------------*/
+
+ul ul ul {
+    left: 100%;
+    top: 0;
+}
+ul ul ul li:hover a::after{
+    content: "";
 }
