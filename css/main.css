@@ -263,7 +263,7 @@ input, button{
 }
 /*-----------------------------------*/
 .list-wrapper{
-    background-image: url("/images/backgrounds/background1.png");
+    background-image: url("../images/backgrounds/background1.png");
     background-repeat: no-repeat; 
     background-size: cover;
     background-position: center;
@@ -294,7 +294,7 @@ input, button{
     margin-top: 105px;
 }
 .newsletter-wrapper{
-    background-image: url("/images/backgrounds/background2.png");
+    background-image: url("../images/backgrounds/background2.png");
     background-repeat: no-repeat; 
     background-size: cover;
     background-position: center;
