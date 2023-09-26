@@ -331,6 +331,9 @@ input, button{
 .social:hover{
     transform: scale(1.3);
 }
+.search-button{
+    border: 1px solid #AABCC5;
+}
 .search-button > .submit:hover{
     background-color: #fff;
     border: 1px solid #768F9C;
